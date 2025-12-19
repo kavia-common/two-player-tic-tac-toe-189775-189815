@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/two-player-tic-tac-toe-189775-189815/frontend_react_app"
+}
