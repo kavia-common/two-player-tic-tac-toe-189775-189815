@@ -88,6 +88,8 @@ function App() {
       <main className="ttt-container">
         <header className="ttt-header" aria-live="polite" aria-atomic="true">
           <h1 className="ttt-title">Tic Tac Toe</h1>
+          {/* Optional retro subtitle (styling hook only) */}
+          <div className="ttt-subtitle" aria-hidden="true">Vintage Edition</div>
           <p
             className={`ttt-status ${winnerInfo ? 'status-win' : isDraw ? 'status-draw' : 'status-turn'}`}
             data-testid="status-text"
